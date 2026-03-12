@@ -24,19 +24,17 @@ const JobsSchema = new Schema(
             required: true
         // i need to reference certain user created the job
         },
+
         status:{
             enum: ["Active", "Ongoing" , "Booked", "Pending"]
 
         },
+
         created_at: Date.now(),
 
         images:{
 
         }
-
-    
-
-    
 
     }
 
