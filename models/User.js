@@ -13,7 +13,8 @@ const UserSchema = new Schema(
         },
         email:{
             required: true,
-            type:String
+            type:String,
+            unique: true
 
         },
         phone:{
@@ -21,7 +22,7 @@ const UserSchema = new Schema(
             type:String
         },
         role:{
-            role:["admin","user","professional"],
+            enum:["admin","user","professional"],
             type:String
         },
         location:{

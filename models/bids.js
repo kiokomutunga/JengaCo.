@@ -10,13 +10,21 @@ const bidSchema= new Schema(
         },
 
         job_id:{
-            type: String
-        },
+            type: Schema.Type.ObjectId,
+            ref:"job"
+             }, // fetch the job being bidded
 
         Estimated_duration: {
             type:Number
         },
+        
         created_at:Date.now()
+        ,
+        professional_id :{
+            type: Schema.type.ObjectId,
+            ref: "professional" // use the id of the person biding
+        },
+        proposal: String
         
         
 
