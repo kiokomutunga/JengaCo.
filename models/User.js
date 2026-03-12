@@ -1,5 +1,5 @@
-const mongoose = require (mongoose)
-const Schema = mongoose.Schema()
+const mongoose = require ('mongoose')
+const Schema = mongoose.Schema
 
 const UserSchema = new Schema(
     {
@@ -29,11 +29,13 @@ const UserSchema = new Schema(
             required: true,
             type: String
         },
-        created_at: Date.now()
+        created_at: {
+            type:Date,
+            default:Date.now()}
 
     
     }
 
 
 );
-Module.exports = user = mongoose.model("Users", UserSchema)
+module.exports = user = mongoose.model("Users", UserSchema)
