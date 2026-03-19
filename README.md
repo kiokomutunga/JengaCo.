@@ -66,5 +66,3 @@ Admin dashboard for marketplace management
 Purpose of the Project
 
 The goal of this platform is to digitize the construction service discovery process, making it easier for homeowners to find trusted professionals while providing contractors and service providers with access to more job opportunities.
-
-The long-term vision is to build a scalable digital marketplace for construction and renovation services across Kenya and eventually other regions in Africa.
