@@ -10,11 +10,13 @@ const smsSchema = Schema.new(
             enum: ["pending", "Sent", "failed"],
             default: "pending"
         },
-        message: String
+        message: String,
+        sid: String,
+        error: String
+        
 
     
         
     }, { timestamps : true}
 );
-
-mongoose.models.exports = sms = mongoose.models("Sms schema", smsSchema)
+module.exports  = mongoose.models("Sms schema", smsSchema)
