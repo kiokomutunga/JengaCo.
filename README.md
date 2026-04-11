@@ -1,7 +1,7 @@
 Construction & Renovation Marketplace Backend
 Overview
 
-This project is the backend for a construction and renovation marketplace platform that connects homeowners with verified professionals such as contractors, plumbers, electricians, and interior designers. The system allows users to post jobs, receive bids from professionals, and manage construction or renovation projects through a centralized platform.
+This project backend for a construction and renovation marketplace platform that connects homeowners with verified professionals such as contractors, plumbers, electricians, and interior designers. The system allows users to post jobs, receive bids from professionals, and manage construction or renovation projects through a centralized platform.
 
 The backend provides a scalable API that manages user authentication, job postings, bidding processes, reviews, and professional profiles.
 
