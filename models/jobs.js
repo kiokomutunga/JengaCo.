@@ -35,7 +35,6 @@ const JobsSchema = new Schema(
         images:{
 
         }
-
     }
 
 )
