@@ -5,10 +5,8 @@ const bidSchema= new Schema(
     //attributes of each bid
     {
         bid_id:{
-            type:String,
-            
+            type:String,            
         },
-
         job_id:{
             type: Schema.Type.ObjectId,
             ref:"job"
@@ -16,8 +14,7 @@ const bidSchema= new Schema(
 
         Estimated_duration: {
             type:Number
-        },
-        
+        },     
         created_at:Date.now()
         ,
         professional_id :{
@@ -25,11 +22,7 @@ const bidSchema= new Schema(
             ref: "professional" // use the id of the person biding
         },
         proposal: String
-        
-        
-
     }
 )
-
 modules.exports = bids = mongoose.models("bids", bidSchema);
-//export the model
+//export.
