@@ -11,14 +11,11 @@ const serviceSchema = new Schema(
             type: String,
             required: true
         },
-
         category: {
             enum: ["renovation", "Construction", "DIY"]//all categories i need to cover in the system
-
         },
-
         description:{
-            type: String
+        type: String
         }
     }
 
